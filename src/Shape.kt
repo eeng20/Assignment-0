@@ -9,13 +9,6 @@ abstract class Shape (_name : String) : Dimensionable {
     open var side = 0.0
 
     override fun printDimensions() {
-        println("Height: $height")
-        println("Length: $length")
-        println("Radius: $radius")
-        println("a: $a")
-        println("b: $b")
-        println("c: $c")
-
     }
 
 
