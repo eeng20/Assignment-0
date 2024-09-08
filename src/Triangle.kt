@@ -4,6 +4,7 @@ open class Triangle(_name: String) : Shape(_name) {
     override var a = 0.0
     override var b = 0.0
     override var c = 0.0
+
     override fun setDimensions(_a: Double, _b: Double, _c: Double) {
         a = _a;
         b = _b;
